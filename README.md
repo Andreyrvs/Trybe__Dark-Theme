@@ -1,0 +1,1 @@
+# TrybeDark__Theme
