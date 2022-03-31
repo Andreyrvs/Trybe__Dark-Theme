@@ -1,0 +1,366 @@
+/* ==UserStyle==
+@name Trybe Dracula
+@version 0.1.1
+@description  🧛🏻‍♂️ Dark theme for Trybe
+@author Andrey
+==/UserStyle== */
+
+@-moz-document url-prefix("https://app.betrybe.com") {
+  :root {
+    --Background: #282a36;
+    --CurrentLine: #44475a;
+    --Foreground: #f8f8f2;
+    --Comment: #6272a4;
+    --Cyan: #8be9fd;
+    --Green: #50fa7b;
+    --Orange: #ffb86c;
+    --Pink: #ff79c6;
+    --Purple: #bd93f9;
+    --Red: #ff5555;
+    --Yellow: #f1fa8c;
+  }
+  
+  body,
+  html {
+    background-color: var(--Background)
+  }
+  
+  /* ===== Pagina de login ==== */
+  /* Header */
+  .header,
+  .header__left-items,
+  .header__right-items {
+    background-color: var(--Background)
+  }
+  
+  .header.scrolled {
+    background-color: var(--Background)
+  }
+  
+  /* Main */
+  .candidate-area-content,
+  .career-page-content,
+  .course-footer,
+  .dossier-page-content,
+  .freecourse {
+    background-color: var(--Background)
+  }
+  
+  /*  */
+  .login-form__divider h1 {
+    color: var(--Foreground)
+  }
+  
+  /* Email label */
+  .ada-input-label {
+    color: var(--Foreground)!important
+  }
+  
+  /* input email */
+  .ada-input-text {
+    background-color: var(--CurrentLine);
+    color: var(--Foreground)
+  }
+  
+  .ada-input-text:focus,
+  .ada-input-text:hover {
+    background-color: var(--Comment)
+  }
+  
+  
+  /* password label */
+  .label {
+    color: var(--Foreground)!important
+  }
+  
+  .input {
+    background-color: var(--CurrentLine);
+    color: var(--Foreground)
+  }
+  
+  .input.filled,
+  .input:focus,
+  .input:hover {
+    background-color: var(--Comment)
+  }
+  
+  
+  /* help-text password-reset */
+  .help-text.password-reset a {
+    color: var(--Red)
+  }
+  
+  /* Button login */
+  .login-form__form-actions .btn {
+    background-color: var(--CurrentLine)
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--Comment)
+  }
+  
+  /* ===== Pagina do Course ==== */
+  /* Header */
+  .header .pageName > p {
+    color: var(--Foreground)
+  }
+  
+  [type=button],
+  [type=reset],
+  [type=submit],
+  button {
+    background-color: var(--Background);
+  }
+  
+  /* Button */
+  .btn-ghost:active,
+  .btn-ghost:hover {
+    background-color: var(--Comment)
+  }
+  
+  
+  /* Faltas */
+  .ada-text,
+  .ada-text-sm {
+    color: var(--Foreground)!important;
+  }
+  
+  .ada-popover--medium {
+    background-color: var(--Background);
+  }
+  
+  /* Avatar */
+  .ada-popover--small {
+    background-color: var(--Background);
+    color: var(--Foreground);
+  }
+  
+  /* Avatar__name */
+  .popover__user-name {
+    color: var(--Foreground);
+  }
+  
+  .popover__user-name:hover {
+    background-color: var(--Comment)
+  }
+  
+  /* Main */
+  .course-footer,
+  .course-footer .course.bootstrap {
+    background-color: var(--Background);
+    color: var(--Foreground);
+  }
+  
+  .home-page {
+    background-color: var(--Background);
+    color: var(--Foreground);
+  }
+  
+  /* Main__texto */
+  .bootstrap h2:first-of-type {
+    color: var(--Foreground);
+  }
+  
+  .bootstrap .home-page h3,
+  .bootstrap .home-page h6 {
+    color: var(--Foreground);
+  }
+  
+  /* Main__Card */
+  .ada-accordion[open] > .accordion-header {
+    background-color: var(--Background);
+  }
+  
+  .ada-accordion.-marker > .accordion-header:hover {
+    background-color: var(--Comment)
+  }
+  
+  .home-projects .home-projects__content {
+    background-color: var(--Background);
+  }
+  
+  .home-projects-list .home-projects-list__project {
+    background-color: var(--Purple);
+    color: var(--Background);
+  }
+  
+  .bootstrap .btn:not(:disabled):not(.disabled),
+  .bootstrap .navbar-toggler:not(:disabled):not(.disabled),
+  .bootstrap .page-link:not(:disabled):not(.disabled) {
+    background-color: var(--CurrentLine);
+    color: var(--Foreground);
+  }
+  
+  a[href].ada-card {
+    background-color: var(--Background)!important;
+  }
+  
+  .home-section__card .ada-card:hover {
+    background-color: var(--Comment)!important;
+  }
+  
+  /* Aside */
+  .sidenav > .sidenav-content > .sidenav-header {
+    background-color: var(--Background)!important;
+  }
+  
+  .sidenav > .sidenav-content a {
+    color: var(--Foreground);
+  }
+  
+  .sidenav > .sidenav-content > .sidenav-navigation {
+    background-color: var(--Background)
+  }
+  
+  .sidenav > .sidenav-content .sidenav-navigation a:hover {
+    background-color: var(--Comment)!important;
+  }
+  
+  /* Aside__Footer */
+  .sidenav .sidenav-footer {
+    background-color: var(--Background)
+  }
+  
+  .sidenav .sidenav-footer > .person-info .name {
+    color: var(--Foreground);
+  }
+  
+  .sidenav .sidenav-footer > .person-info .email {
+    color: var(--Foreground);
+  }
+  
+  .space-x-2 > :not(template) ~ :not(template) {
+    color: var(--Foreground);
+  }
+  
+  /* Agenda */
+  .ada-tab-item > .text {
+    color: var(--Foreground);
+  }
+  
+  .course-calendar .ada-tabs .ada-tab-item:focus,
+  .course-calendar .ada-tabs .ada-tab-item:hover {
+    background-color: var(--Comment);
+  }
+  
+  .module-index > .module-index-header > h4 {
+    color: var(--Foreground);
+  }
+  
+  .bootstrap summary {
+    background-color: var(--Background)
+  }
+  
+  .module-index * {
+    color: var(--Foreground);
+  }
+  
+  .ada-accordion > .accordion-content-item {
+    background-color: var(--Background)
+  }
+  
+  .ada-accordion > .accordion-header:active {
+    background-color: var(--Pink)
+  }
+  
+  .ada-accordion > .accordion-content-item:hover {
+    background-color: var(--Comment);
+  }
+  
+  /* Footer */
+  #footer#footer {
+    background-color: var(--Background);
+    color: var(--Foreground);
+  }
+  
+  #footer a {
+    color: var(--Green);
+  }
+  
+  /* Conteudo */
+  .content-navigation-bar {
+    background-color: var(--Background);
+  }
+  
+  .content-navigation-bar > .btn-nav-content > span {
+    color: var(--Green);
+  }
+  
+  .hard-skills-layout .content-navigation-bar > .btn-nav-content > svg > path,
+  .hard-skills-layout .content-navigation-bar > span {
+    color: var(--Purple);
+  }
+  
+  .bootstrap .pb-1,
+  .bootstrap .py-1 {
+    color: var(--Foreground);
+  }
+  
+  .bootstrap a {
+    color: var(--Cyan);
+  }
+  
+  .bootstrap a:focus,
+  .bootstrap a:hover {
+    color: var(--Comment);
+  }
+  
+  .content-section-box > h2:first-of-type,
+  .content-section-box > h3:first-of-type {
+    color: var(--Foreground);
+  }
+  
+  .content-section-box > .title-section,
+  .content-section-box > .title-subsection,
+  .content-section-box > :not(a),
+  .content-section-box > :not(pre),
+  .content-section-box > h4 {
+    color: var(--Foreground);
+  }
+  
+  /* Conteudo__Aside */
+  .navigation-sidebar-section {
+    background-color: var(--Background);
+  }
+  
+  .bootstrap .pl-3,
+  .bootstrap .px-3 {
+    color: var(--Foreground);
+  }
+  
+  .nav.navbar-nav.chapters {
+    background-color: var(--Background);
+  }
+  
+  .chapter-item {
+    background-color: var(--Background);
+  }
+  
+  .chapter-item:not(.active):hover {
+    background-color: var(--Background);
+  }
+  
+  .hard-skills-layout .sub-section-item:active {
+    background-color: var(--Background);
+  }
+  
+  .bootstrap *,
+  .bootstrap ::after,
+  .bootstrap ::before {
+    color: var(--Foreground)!important;
+  }
+  
+  #footer a * {
+    background-color: var(--Green)!important;
+  }
+  
+  .header.scrolled {
+    background-color: var(--Background)!important;
+  }
+  
+  .bootstrap *,
+  .bootstrap ::after,
+  .bootstrap ::before {
+    background-color: var(--Background)!important;
+  }
+  }
