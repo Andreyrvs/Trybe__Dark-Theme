@@ -1,12 +1,11 @@
 /* ==UserStyle==
-@namespace url(https://app.betrybe.com)
+@namespace https://github.com/Andreyrvs/TrybeDark__Theme
 @name Trybe DarkTheme
-@version 0.1.3
+@version 0.2.3
 @description  Dark theme for Trybe
 @author Andrey
 refecence color https://draculatheme.com/contribute
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://app.betrybe.com") {
 	:root {
 		--Background: #282a36;
@@ -355,5 +354,51 @@ refecence color https://draculatheme.com/contribute
 
 	.hard-skills-layout .sub-section-item:hover {
 		background-color: var(--Background)!important;
+	}
+
+	/* Pagina Projetos  main*/
+	.projects-page .projects-page__tile {
+		background-color: var(--Background)
+	}
+
+	.projects-page {
+		background-color: var(--Background)
+	}
+
+	/* Pagina Projetos individual */
+	.project-tile {
+		background-color: var(--Background)
+	}
+
+	.overlappable-content--bg-white-300 {
+		background-color: var(--Background)
+	}
+
+	/* Pagina Aula ao vivo */
+	#content.live-lectures.main-page {
+		background-color: var(--Background)
+	}
+
+	#content.live-lectures.main-page {
+		background-color: var(--Background)
+	}
+
+	.bootstrap .live-lectures article {
+		background-color: var(--Background)
+	}
+
+	.bootstrap #content.live-lectures .jumbotron,
+	.bootstrap #content.live-lectures .jumbotron > .container {
+		background-color: var(--CurrentLine)
+	}
+
+	/* Pagina Aula ao vivo Aside */
+	.bootstrap #content.live-lectures .col-sm-3 {
+
+		background-color: var(--Background)
+	}
+
+	.sidenav:not(.open) {
+		background-color: var(--Background)
 	}
 }
