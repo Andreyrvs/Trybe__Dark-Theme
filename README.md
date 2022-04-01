@@ -11,7 +11,8 @@
 - Aula ao vivo
 
 # Atualizacao
-![Atualizar](https://github.com/Andreyrvs/TrybeDark__Theme/blob/main/images/Atualizar_01.png
+Para ter acesso as ultimas novidades do tema entre na extensao e click nesse icone
+![Atualizar](https://github.com/Andreyrvs/Trybe__Dark-Theme/blob/main/images/Atualizar_01.png)
 
 # Images
 ![Login](https://github.com/Andreyrvs/TrybeDark__Theme/blob/main/images/Login.png)
